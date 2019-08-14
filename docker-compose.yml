@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: ctftraining/base_image_nginx_php_56
+    ports:
+      - "0.0.0.0:8085:80"
+    environment:
+      - FLAG=CTFTraining{CoColi_has_to_work_hard}
