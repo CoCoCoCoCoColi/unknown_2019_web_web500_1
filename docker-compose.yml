@@ -2,7 +2,7 @@ version: "2"
 services:
   web:
     build: .
-    image: ctftraining/base_image_nginx_php_56
+    image: ctftraining/unknown_2019_web_web500_1
     ports:
       - "0.0.0.0:8085:80"
     environment:
